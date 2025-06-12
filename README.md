@@ -1,8 +1,25 @@
-<h1 align="left">University Management System Using PHP and MySQL <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> </h1>
-<p align="left">Welcome to the University Management System repository! This is a web-based system designed to simplify administrative tasks for universities. The application enables efficient management of students, faculty, courses, and departments through an interactive and secure dashboard. Developed using PHP and MySQL, the project showcases clean backend logic, session handling, and modern CRUD interfaces.</p>
-<h2 align="left">🎯 Features Of This System</h2>
-<p align="left"> - Multi-role Dashboard: Separate views for Admin, Faculty, and Students.<br><br> - Student Enrollment: Add, update, and manage student records.<br><br> - Faculty Management: Assign instructors to courses and manage workloads.<br><br> - Course Scheduling: Create and organize course timetables by department.<br><br> - Secure Authentication: Role-based login system with session handling.<br><br> - CRUD Operations: Manage departments, students, faculty, and courses.<br><br> - Responsive UI: Built with HTML/CSS and Bootstrap for smooth user experience. </p>
-<h2 align="left">🕹️ How To Use!</h2>
-<p align="left"> 1. Clone or download the project to your `htdocs` folder (XAMPP).<br><br> 2. Start Apache and MySQL using XAMPP Control Panel.<br><br> 3. Import the `university_db.sql` file in phpMyAdmin to create the required database.<br><br> 4. Go to `http://localhost/university-management-system` in your browser.<br><br> 5. Login using test credentials or register a new account depending on role.<br><br> 6. Begin managing students, courses, and faculty via the intuitive dashboard! </p>
-<h2 align="left">🧠 Tech Stack</h2>
-<p align="left"> - PHP for server-side scripting<br> - MySQL for database management<br> - HTML5 & CSS3 for structure and style<br> - JavaScript for interactions<br> - Bootstrap for responsive layout </p>
+# College-Management-System
+> PHP, MySQL, HTML, Bootstrap, Xampp, PhpMyAdmin were used.
+---
+- This project was developed for the Databases class 2019-2020 Spring semester.
+- Our system provides two options to log in, these are a student and a lecturer. Check the GIFs for more details or clone the repository.
+---
+### Quick Overview
+#### - [Installation](#Installation)
+#### - [EER Diagram](https://raw.githubusercontent.com/Mstfakts/College-Management-System/master/Report%26EER/EER-Diagram.png)
+#### - [Student Log in](#Student)
+#### - [Lecturer Log in](#Lecturer)
+---
+### Installation
+#### Step 1: Clone the repository .
+#### Step 2: Move the 'Front-end' file to ..\xampp\htdocs .
+#### Step 3: Open Xampp, then phpMyAdmin. Click 'import' and select ..\Back-End (SQL-tables)\mebis.sql .
+---
+### Example Logins
+#### Student
+![Recordit GIF](http://g.recordit.co/C6INTaLzoQ.gif)
+------
+#### Lecturer
+![Recordit GIF](http://g.recordit.co/BRDRtMGmwY.gif)
+---
+If you need more clarification or have any question please create an issue. So, I can solve the problem fast.
